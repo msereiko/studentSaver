@@ -15,6 +15,10 @@
 		271230561E958F180066888D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271230541E958F180066888D /* LaunchScreen.storyboard */; };
 		271230611E958F180066888D /* studentSaverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 271230601E958F180066888D /* studentSaverTests.m */; };
 		2712306C1E958F190066888D /* studentSaverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2712306B1E958F190066888D /* studentSaverUITests.m */; };
+		271AB5D11EB905C400D47A24 /* stockSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 271AB5D01EB905C400D47A24 /* stockSearch.m */; };
+		271AB5D41EB9658700D47A24 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 271AB5D31EB9658700D47A24 /* Company.m */; };
+		271AB5D71EB96BC900D47A24 /* StockDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 271AB5D61EB96BC900D47A24 /* StockDetailVC.m */; };
+		271AB5DA1EBA573000D47A24 /* GetSharesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 271AB5D91EBA573000D47A24 /* GetSharesVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		271230671E958F180066888D /* studentSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studentSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2712306B1E958F190066888D /* studentSaverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studentSaverUITests.m; sourceTree = "<group>"; };
 		2712306D1E958F190066888D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271AB5CF1EB905C400D47A24 /* stockSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stockSearch.h; sourceTree = "<group>"; };
+		271AB5D01EB905C400D47A24 /* stockSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stockSearch.m; sourceTree = "<group>"; };
+		271AB5D21EB9658700D47A24 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		271AB5D31EB9658700D47A24 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		271AB5D51EB96BC900D47A24 /* StockDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockDetailVC.h; sourceTree = "<group>"; };
+		271AB5D61EB96BC900D47A24 /* StockDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockDetailVC.m; sourceTree = "<group>"; };
+		271AB5D81EBA573000D47A24 /* GetSharesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSharesVC.h; sourceTree = "<group>"; };
+		271AB5D91EBA573000D47A24 /* GetSharesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSharesVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +117,19 @@
 				2712304A1E958F180066888D /* AppDelegate.m */,
 				2712304C1E958F180066888D /* ViewController.h */,
 				2712304D1E958F180066888D /* ViewController.m */,
+				271AB5CF1EB905C400D47A24 /* stockSearch.h */,
+				271AB5D01EB905C400D47A24 /* stockSearch.m */,
+				271AB5D21EB9658700D47A24 /* Company.h */,
+				271AB5D31EB9658700D47A24 /* Company.m */,
+				271AB5D51EB96BC900D47A24 /* StockDetailVC.h */,
+				271AB5D61EB96BC900D47A24 /* StockDetailVC.m */,
 				2712304F1E958F180066888D /* Main.storyboard */,
 				271230521E958F180066888D /* Assets.xcassets */,
 				271230541E958F180066888D /* LaunchScreen.storyboard */,
 				271230571E958F180066888D /* Info.plist */,
 				271230461E958F180066888D /* Supporting Files */,
+				271AB5D81EBA573000D47A24 /* GetSharesVC.h */,
+				271AB5D91EBA573000D47A24 /* GetSharesVC.m */,
 			);
 			path = studentSaver;
 			sourceTree = "<group>";
@@ -273,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271AB5DA1EBA573000D47A24 /* GetSharesVC.m in Sources */,
+				271AB5D71EB96BC900D47A24 /* StockDetailVC.m in Sources */,
 				2712304E1E958F180066888D /* ViewController.m in Sources */,
+				271AB5D41EB9658700D47A24 /* Company.m in Sources */,
 				2712304B1E958F180066888D /* AppDelegate.m in Sources */,
+				271AB5D11EB905C400D47A24 /* stockSearch.m in Sources */,
 				271230481E958F180066888D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +531,7 @@
 				271230721E958F190066888D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		271230731E958F190066888D /* Build configuration list for PBXNativeTarget "studentSaverTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +540,7 @@
 				271230751E958F190066888D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		271230761E958F190066888D /* Build configuration list for PBXNativeTarget "studentSaverUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +549,7 @@
 				271230781E958F190066888D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
